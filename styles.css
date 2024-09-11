@@ -1,0 +1,33 @@
+body {
+    background:rgb(34, 40, 57);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+    display:flex;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.odd {
+    background:white;
+    color:darkslategray
+}
+
+.quote {
+    background:lightgray;
+    color:darkslategray;
+}
