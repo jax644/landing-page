@@ -13,11 +13,18 @@ header {
 
 main {
     display:flex;
+    margin:5% 10%;
+
 }
 
 main .left {
     display:flex;
     flex-direction: column;
+}
+
+main .right {
+    width:50%;
+    flex:1 0 auto;
 }
 
 .image-container {
@@ -63,10 +70,14 @@ a {
 .signup-alert {
     background-color: cornflowerblue;
     display:flex;
-    margin:1em 2em;
+    margin:5% 10%;
     justify-content: space-around;
 }
 
 h2 {
     text-align:center;
+}
+
+footer {
+    text-align: center;
 }
