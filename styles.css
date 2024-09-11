@@ -11,6 +11,34 @@ header {
     justify-content: space-between;
 }
 
+main {
+    display:flex;
+}
+
+main .left {
+    display:flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.image {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    width:100px;
+}
+
+.border {
+    height:100px;
+    width:100px;
+    border:1px solid blue;
+    border-radius:10%;
+}
+
 ul {
     list-style:none;
     padding:0;
@@ -30,4 +58,8 @@ a {
 .quote {
     background:lightgray;
     color:darkslategray;
+}
+
+h2 {
+    text-align:center;
 }
