@@ -60,6 +60,13 @@ a {
     color:darkslategray;
 }
 
+.signup-alert {
+    background-color: cornflowerblue;
+    display:flex;
+    margin:1em 2em;
+    justify-content: space-around;
+}
+
 h2 {
     text-align:center;
 }
